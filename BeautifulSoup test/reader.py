@@ -31,6 +31,7 @@ with open('sample.xml', 'r') as file:
     ## Finding tags by relationships (parent, child, or sibling) ##
     print('_____________________________________\n')
     print('    Finding tags by relationship\n')
+    
     # Finding parent(s)
     print('Finding parent(s):\n')
     third_child = bs_content.find('child', {'name': 'Blue Ivy'})
